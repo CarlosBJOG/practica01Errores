@@ -48,6 +48,7 @@ const FormError = () => {
                 name="vTeorico"
                 autoComplete = "off"
                 step="any"
+                pattern="[0-9]+([.][0-9]+)?$"
                 value={vTeorico}
                 onChange = { handleInputChange }
             />
@@ -58,6 +59,7 @@ const FormError = () => {
                 className="form form-control mt-1"
                 name="vExperimental"
                 autoComplete = "off"
+                pattern="[0-9]+([.][0-9]+)?$"
                 value={vExperimental}
                 onChange = { handleInputChange}
             />
