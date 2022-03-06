@@ -1,22 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Errors from './components/Errors';
+
+import ErrorsApp from './components/ErrorsApp';
 import Footer from './components/Footer';
+
 import './index.css';
 
 
 ReactDOM.render(
 
-  <Errors />,
+  <ErrorsApp />,
 
   document.getElementById('root')
-);
-
-ReactDOM.render(
-  
-  <Footer />,
-
-  document.getElementById('footer')
 );
 
 

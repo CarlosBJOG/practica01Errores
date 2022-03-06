@@ -9,10 +9,6 @@ body {
 
 }
 
-footer
-{
-    margin-top:50px;
-    width:100%;
-    position: absolute;
-    bottom: 0;
+p{
+  color: blue;
 }
